@@ -1,7 +1,9 @@
+import java.math.BigDecimal;
 
 public class Person {
 	private int _age;
 	private boolean _isValid = false;
+	private BigDecimal _savingAmount;
 
 	public int getAge() {
 		return this._age;
@@ -27,7 +29,10 @@ public class Person {
 	
 	}
 	
-	public Person() {
+	Person() {
+		
+	}
+	Person(int age) {
 		
 	}
 	// overriding the toString method
